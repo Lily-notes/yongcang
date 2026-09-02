@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+<meta name="google-site-verification" content="tOfTGS5GzfWVbLbAbLg89KoHD1ZKYVaLbkJHb6tTlXI" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base target="_top">
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="勇倉工程行，提供苗栗、頭份、竹南、後龍地區住宅修繕、新建案泥作及建商工程配合服務。">
+
+  <title>勇倉工程行｜專業泥作施工｜建商工程配合</title>
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+
+      font-family:
+        "Noto Sans TC",
+        "Microsoft JhengHei",
+        Arial,
+        sans-serif;
+
+      color: #222;
+
+      background: #f6f3ed;
+
+      line-height: 1.7;
+    }
+
+
+    /* =========================
+       共用
+    ========================= */
+
+    section {
+      scroll-margin-top: 80px;
+    }
+
+    .container {
+
+      width: 90%;
+
+      max-width: 1200px;
+
+      margin: auto;
+    }
+
+    .section {
+
+      padding: 90px 0;
+    }
+
+    .section-title {
+
+      text-align: center;
+
+      margin-bottom: 55px;
+    }
+
+    .section-title h2 {
+
+      font-size: 38px;
+
+      font-weight: 900;
+
+      margin-bottom: 12px;
+    }
+
+    .gold-line {
+
+      width: 55px;
+
+      height: 3px;
+
+      background: #b68a45;
+
+      margin: auto;
+    }
+
+
+    /* =========================
+       導覽列
+    ========================= */
+
+    .navbar {
+
+      position: fixed;
+
+      top: 0;
+
+      left: 0;
+
+      width: 100%;
+
+      height: 76px;
+
+      background: rgba(255,255,255,.96);
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      padding: 0 5%;
+
+      z-index: 999;
+
+      box-shadow:
+        0 2px 15px rgba(0,0,0,.08);
+    }
+
+    .brand {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      text-decoration: none;
+
+      color: #222;
+    }
+
+    .brand-logo {
+
+      width: 43px;
+
+      height: 43px;
+
+      border: 2px solid #b68a45;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      color: #b68a45;
+
+      font-size: 20px;
+
+      font-weight: 900;
+
+      clip-path: polygon(
+        50% 0,
+        100% 25%,
+        100% 100%,
+        0 100%,
+        0 25%
+      );
+    }
+
+    .brand-name {
+
+      font-size: 22px;
+
+      font-weight: 900;
+    }
+
+    .brand-name small {
+
+      display: block;
+
+      font-size: 8px;
+
+      letter-spacing: 2px;
+
+      color: #b68a45;
+    }
+
+    .nav {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 28px;
+    }
+
+    .nav a {
+
+      color: #333;
+
+      text-decoration: none;
+
+      font-size: 14px;
+
+      font-weight: 700;
+    }
+
+    .nav a:hover {
+
+      color: #b68a45;
+    }
+
+    .nav-phone {
+
+      background: #b68a45;
+
+      color: white !important;
+
+      padding: 10px 18px;
+
+      border-radius: 6px;
+    }
+.menu-toggle {
+
+  display: none;
+
+  border: none;
+
+  background: transparent;
+
+  font-size: 30px;
+
+  color: #222;
+
+  cursor: pointer;
+
+  padding: 5px;
+}
+
+    /* =========================
+       Hero
+    ========================= */
+
+    .hero {
+
+      min-height: 720px;
+
+      padding-top: 76px;
+
+      display: flex;
+
+      align-items: center;
+
+      background:
+
+        linear-gradient(
+          90deg,
+          rgba(0,0,0,.75),
+          rgba(0,0,0,.45),
+          rgba(0,0,0,.12)
+        ),
+
+        url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2000&q=85")
+
+        center / cover no-repeat;
+    }
+
+    .hero-content {
+
+      width: 90%;
+
+      max-width: 1200px;
+
+      margin: auto;
+
+      color: white;
+    }
+
+    .hero h1 {
+
+      font-size: clamp(44px,6vw,72px);
+
+      line-height: 1.2;
+
+      font-weight: 900;
+
+      margin-bottom: 25px;
+    }
+
+    .hero-description {
+
+      font-size: 20px;
+
+      max-width: 650px;
+
+      margin-bottom: 20px;
+    }
+
+    .hero-location {
+
+      font-size: 19px;
+
+      font-weight: bold;
+
+      margin: 25px 0;
+    }
+
+    .hero-buttons {
+
+      display: flex;
+
+      gap: 15px;
+    }
+
+    .btn {
+
+      display: inline-block;
+
+      padding: 14px 28px;
+
+      border-radius: 6px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+    }
+
+    .btn-gold {
+
+      background: #b68a45;
+
+      color: white;
+    }
+
+    .btn-dark {
+
+      background: #222;
+
+      color: white;
+    }
+
+
+    /* =========================
+       服務項目
+    ========================= */
+
+    .services {
+
+      background: #fff;
+    }
+
+    .service-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 0;
+    }
+
+    .service-card {
+
+      padding: 30px 20px;
+
+      text-align: center;
+
+      border-right:
+        1px solid #ddd;
+    }
+
+    .service-card:last-child {
+
+      border-right: none;
+    }
+
+    .service-icon {
+
+      font-size: 40px;
+
+      color: #b68a45;
+
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+
+      font-size: 19px;
+
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+
+      color: #666;
+
+      font-size: 14px;
+    }
+
+
+    /* =========================
+       工程實績
+    ========================= */
+
+    .projects {
+
+      background: #f6f3ed;
+    }
+
+    .project-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 22px;
+    }
+
+    .project-card {
+
+      background: white;
+
+      border-radius: 10px;
+
+      overflow: hidden;
+
+      box-shadow:
+        0 8px 25px rgba(0,0,0,.08);
+    }
+
+    .project-image {
+
+      width: 100%;
+
+      height: 240px;
+
+      background: #ddd;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      color: #999;
+
+      overflow: hidden;
+    }
+
+    .project-image img {
+
+      width: 100%;
+
+      height: 100%;
+
+      object-fit: cover;
+    }
+
+    .project-content {
+
+      padding: 22px;
+    }
+
+    .project-content h3 {
+
+      margin-bottom: 6px;
+    }
+
+    .project-meta {
+
+      color: #b68a45;
+
+      font-size: 14px;
+
+      font-weight: bold;
+    }
+
+    .project-content p {
+
+      color: #666;
+
+      font-size: 14px;
+
+      margin-top: 8px;
+    }
+
+
+    /* =========================
+       為什麼選擇勇倉
+    ========================= */
+
+    .strengths {
+
+      background: #1e1f1f;
+
+      color: white;
+    }
+
+    .strength-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(4,1fr);
+
+      gap: 25px;
+
+      text-align: center;
+    }
+
+    .strength-card {
+
+      padding: 25px;
+    }
+
+    .strength-icon {
+
+      font-size: 38px;
+
+      color: #c39a57;
+
+      margin-bottom: 15px;
+    }
+
+    .strength-card h3 {
+
+      color: #c39a57;
+
+      margin-bottom: 12px;
+    }
+
+    .strength-card p {
+
+      color: #ddd;
+
+      font-size: 14px;
+    }
+
+
+    /* =========================
+       施工流程
+    ========================= */
+
+    .process {
+
+      background: white;
+    }
+
+    .process-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(6,1fr);
+
+      gap: 15px;
+    }
+
+    .process-card {
+
+      text-align: center;
+
+      position: relative;
+
+      padding: 20px 10px;
+    }
+
+    .process-number {
+
+      width: 48px;
+
+      height: 48px;
+
+      border-radius: 50%;
+
+      background: #b68a45;
+
+      color: white;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      margin: 0 auto 15px;
+
+      font-weight: 900;
+    }
+
+    .process-card h3 {
+
+      font-size: 16px;
+
+      margin-bottom: 8px;
+    }
+
+    .process-card p {
+
+      font-size: 13px;
+
+      color: #666;
+    }
+
+
+    /* =========================
+       服務區域
+    ========================= */
+
+    .areas {
+
+      background: #f6f3ed;
+    }
+
+    .area-box {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 50px;
+
+      align-items: center;
+    }
+
+    .area-list {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap: 15px;
+
+      margin-top: 25px;
+    }
+
+    .area-item {
+
+      background: white;
+
+      padding: 15px;
+
+      border-radius: 7px;
+
+      font-weight: bold;
+
+      text-align: center;
+    }
+
+
+    /* =========================
+       客戶需求
+    ========================= */
+
+    .contact {
+
+      background: #1e1f1f;
+
+      color: white;
+    }
+
+    .contact-grid {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 70px;
+    }
+
+    .contact-info h2 {
+
+      font-size: 40px;
+
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+
+      color: #ddd;
+
+      margin-bottom: 15px;
+    }
+
+    .contact-detail {
+
+      margin-top: 30px;
+
+      font-size: 17px;
+    }
+
+    .contact-detail div {
+
+      margin: 12px 0;
+    }
+
+    .contact-detail strong {
+
+      color: #c39a57;
+    }
+
+    .form {
+
+      background: white;
+
+      color: #222;
+
+      padding: 35px;
+
+      border-radius: 10px;
+    }
+
+    .form h3 {
+
+      margin-bottom: 25px;
+
+      font-size: 25px;
+    }
+
+    .form-row {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 15px;
+    }
+
+    .form-group {
+
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+
+      display: block;
+
+      font-size: 14px;
+
+      font-weight: bold;
+
+      margin-bottom: 6px;
+    }
+
+   .form-group input,
+.form-group select,
+.form-group textarea {
+
+  width: 100%;
+
+  padding: 11px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+
+  font-family: inherit;
+
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  -webkit-appearance: none;
+
+  appearance: none;
+}
+
+    .form-group textarea {
+
+      min-height: 100px;
+
+      resize: vertical;
+    }
+
+    .consent {
+
+      font-size: 12px;
+
+      color: #666;
+
+      margin-bottom: 15px;
+    }
+
+    .submit-btn {
+
+      width: 100%;
+
+      border: none;
+
+      padding: 14px;
+
+      background: #b68a45;
+
+      color: white;
+
+      font-size: 16px;
+
+      font-weight: bold;
+
+      border-radius: 6px;
+
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+
+      background: #966f35;
+    }
+
+    #formMessage {
+
+      margin-top: 15px;
+
+      text-align: center;
+
+      font-weight: bold;
+    }
+
+
+    /* =========================
+       Footer
+    ========================= */
+
+    footer {
+
+      background: #111;
+
+      color: white;
+
+      padding: 35px 5%;
+    }
+
+    .footer-inner {
+
+      max-width: 1200px;
+
+      margin: auto;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      gap: 30px;
+    }
+
+    .footer-brand {
+
+      font-size: 20px;
+
+      font-weight: 900;
+    }
+
+    .footer-brand small {
+
+      display: block;
+
+      color: #b68a45;
+
+      font-size: 8px;
+
+      letter-spacing: 2px;
+    }
+
+    .footer-info {
+
+      text-align: right;
+
+      color: #ccc;
+
+      font-size: 14px;
+    }
+
+
+    /* =========================
+       手機版
+    ========================= */
+
+    @media (max-width: 900px) {
+
+      .nav {
+
+        display: none;
+      }
+.menu-toggle {
+  display: block;
+}
+      .service-grid {
+
+        grid-template-columns:
+          repeat(2,1fr);
+      }
+
+      .service-card {
+
+        border-bottom:
+          1px solid #ddd;
+
+        border-right:
+          1px solid #ddd;
+      }
+
+      .project-grid {
+
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+      .strength-grid {
+
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+      .process-grid {
+
+        grid-template-columns:
+          repeat(3,1fr);
+      }
+
+      .area-box,
+      .contact-grid {
+
+        grid-template-columns:
+          1fr;
+      }
+    }
+
+
+    @media (max-width: 600px) {
+
+      .navbar {
+
+        height: 65px;
+
+        padding: 0 18px;
+      }
+
+      .brand-name {
+
+        font-size: 18px;
+      }
+
+      .nav-phone {
+
+        padding: 8px 12px;
+
+        font-size: 12px;
+      }
+
+      .hero {
+
+        min-height: 650px;
+      }
+
+      .hero h1 {
+
+        font-size: 42px;
+      }
+
+      .hero-description {
+
+        font-size: 16px;
+      }
+
+      .hero-buttons {
+
+        flex-direction: column;
+      }
+
+      .section {
+
+        padding: 65px 0;
+      }
+
+      .section-title h2 {
+
+        font-size: 30px;
+      }
+
+      .service-grid,
+      .project-grid,
+      .strength-grid,
+      .process-grid {
+
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+
+        border-right: none;
+      }
+
+      .form-row {
+
+        grid-template-columns: 1fr;
+      }
+
+      .form {
+
+        padding: 25px 20px;
+      }
+
+      .footer-inner {
+
+        flex-direction: column;
+      }
+
+      .footer-info {
+
+        text-align: left;
+      }
+    }
+/* =========================
+   手機版：工程需求表單固定視線
+   ========================= */
+
+@media (max-width: 600px) {
+
+  /* 進入表單時，讓表單位置穩定 */
+  #contact {
+    scroll-margin-top: 20px;
+  }
+
+  /* 表單本身不要跟著內容亂移 */
+  #contact .form {
+    position: relative;
+    scroll-margin-top: 20px;
+  }
+
+  /* 手機輸入框避免瀏覽器自動放大 */
+  #contact input,
+  #contact select,
+  #contact textarea {
+    font-size: 16px !important;
+    transform: none;
+  }
+
+  /* 點擊欄位後，保持舒服的上下間距 */
+  #contact input:focus,
+  #contact select:focus,
+  #contact textarea:focus {
+    outline: none;
+    border-color: #b68a45;
+    box-shadow: 0 0 0 2px rgba(182,138,69,.12);
+  }
+
+}
+  </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     導覽列
+========================= -->
+
+<header class="navbar">
+
+  <a href="#home" class="brand">
+
+    <div class="brand-logo">
+      勇
+    </div>
+
+    <div class="brand-name">
+
+      勇倉工程行
+
+      <small>
+        YONG CANG CONSTRUCTION
+      </small>
+
+    </div>
+
+  </a>
+
+
+  <nav class="nav">
+
+    <a href="#home">首頁</a>
+
+    <a href="#services">服務項目</a>
+
+    <a href="#projects">工程實績</a>
+
+    <a href="#process">施工流程</a>
+
+    <a href="#contact">聯絡我們</a>
+
+    <a
+      href="tel:0980546719"
+      class="nav-phone"
+    >
+      ☎ 0980-546719
+    </a>
+
+  </nav>
+<!-- 手機版選單按鈕 -->
+
+<button
+  class="menu-toggle"
+  id="menuToggle"
+  aria-label="開啟選單"
+>
+
+  ☰
+
+</button>
+</header>
+
+
+
+<!-- =========================
+     Hero
+========================= -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <h1>
+      專業泥作施工<br>
+      建商工程配合
+    </h1>
+
+    <p class="hero-description">
+      專注住宅修繕、新建案及建商泥作工程<br>
+      配合現場進度，做好每一道施工工序
+    </p>
+
+    <div class="hero-location">
+      📍 苗栗｜頭份｜竹南｜後龍
+    </div>
+
+    <div class="hero-buttons">
+
+      <a
+        href="#projects"
+        class="btn btn-gold"
+      >
+        查看工程實績
+      </a>
+
+      <a
+        href="#contact"
+        class="btn btn-dark"
+      >
+        立即聯絡
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     服務項目
+========================= -->
+
+<section
+  class="section services"
+  id="services"
+>
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>我們專注的泥作工程</h2>
+
+      <div class="gold-line"></div>
+
+    </div>
+
+    <div
+      class="service-grid"
+      id="serviceGrid"
+    ></div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     工程實績
+========================= -->
+
+<section
+  class="section projects"
+  id="projects"
+>
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>工程實績</h2>
+
+      <div class="gold-line"></div>
+
+      <p style="margin-top:15px;color:#777;">
+        每一個工程，都是我們用心打造的成果。
+      </p>
+
+    </div>
+
+    <div
+      class="project-grid"
+      id="projectGrid"
+    ></div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     為什麼選擇勇倉
+========================= -->
+
+<section class="section strengths">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>為什麼選擇勇倉？</h2>
+
+      <div class="gold-line"></div>
+
+    </div>
+
+    <div class="strength-grid">
+
+      <div class="strength-card">
+
+        <div class="strength-icon">◆</div>
+
+        <h3>專注泥作工程</h3>
+
+        <p>
+          專注泥作施工領域，
+          重視每一道施工工序。
+        </p>
+
+      </div>
+
+
+      <div class="strength-card">
+
+        <div class="strength-icon">◆</div>
+
+        <h3>配合工地進度</h3>
+
+        <p>
+          依現場施工安排，
+          配合工程進度完成工作。
+        </p>
+
+      </div>
+
+
+      <div class="strength-card">
+
+        <div class="strength-icon">◆</div>
+
+        <h3>重視施工品質</h3>
+
+        <p>
+          從基礎施工到細節，
+          重視工程品質。
+        </p>
+
+      </div>
+
+
+      <div class="strength-card">
+
+        <div class="strength-icon">◆</div>
+
+        <h3>在地工程團隊</h3>
+
+        <p>
+          深耕苗栗地區，
+          熟悉在地施工需求。
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     施工流程
+========================= -->
+
+<section
+  class="section process"
+  id="process"
+>
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>施工流程</h2>
+
+      <div class="gold-line"></div>
+
+    </div>
+
+    <div
+      class="process-grid"
+      id="processGrid"
+    ></div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     服務區域
+========================= -->
+
+<section class="section areas">
+
+  <div class="container">
+
+    <div class="area-box">
+
+      <div>
+
+        <div class="section-title"
+             style="text-align:left;margin-bottom:20px;">
+
+          <h2>服務區域</h2>
+
+          <div
+            class="gold-line"
+            style="margin:0;"
+          ></div>
+
+        </div>
+
+        <p>
+          提供苗栗地區泥作工程服務，
+          主要服務苗栗、頭份、竹南及後龍。
+        </p>
+
+        <div class="area-list">
+
+          <div class="area-item">📍 苗栗</div>
+
+          <div class="area-item">📍 頭份</div>
+
+          <div class="area-item">📍 竹南</div>
+
+          <div class="area-item">📍 後龍</div>
+
+        </div>
+
+      </div>
+
+
+      <div>
+
+        <h3 style="font-size:28px;margin-bottom:15px;">
+          專業泥作，歡迎洽詢
+        </h3>
+
+        <p style="color:#666;">
+          無論是住宅修繕、新建案，
+          或建商工程配合，
+          歡迎與我們聯絡。
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     聯絡＋需求表單
+========================= -->
+
+<section
+  class="section contact"
+  id="contact"
+>
+
+  <div class="container">
+
+    <div class="contact-grid">
+
+
+      <div class="contact-info">
+
+        <h2>
+          有泥作工程需求？
+        </h2>
+
+        <p>
+          歡迎直接與勇倉工程行聯絡，
+          或留下您的工程需求。
+        </p>
+
+        <p>
+          我們收到資料後，
+          將與您聯絡。
+        </p>
+
+
+        <div class="contact-detail">
+
+          <div>
+            <strong>負責人</strong>
+            鄭凱元
+          </div>
+
+          <div>
+            <strong>電話</strong>
+            0980-546719
+          </div>
+
+          <div>
+            <strong>LINE</strong>
+            0980546719
+          </div>
+
+          <div>
+            <strong>地址</strong>
+            苗栗市文聖里橫車路352巷97弄
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="form">
+
+        <h3>
+          工程需求諮詢
+        </h3>
+
+        <form id="inquiryForm">
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label>
+                姓名 *
+              </label>
+
+              <input
+                type="text"
+                id="name"
+                required
+              >
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label>
+                聯絡電話 *
+              </label>
+
+              <input
+                type="tel"
+                id="phone"
+                required
+              >
+
+            </div>
+
+          </div>
+
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label>
+                公司名稱
+              </label>
+
+              <input
+                type="text"
+                id="company"
+              >
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label>
+                LINE
+              </label>
+
+              <input
+                type="text"
+                id="line"
+              >
+
+            </div>
+
+          </div>
+
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label>
+                您是？
+              </label>
+
+              <select id="customerType">
+
+                <option value="">
+                  請選擇
+                </option>
+
+                <option>
+                  屋主
+                </option>
+
+                <option>
+                  建商
+                </option>
+
+                <option>
+                  營造公司
+                </option>
+
+                <option>
+                  其他
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label>
+                工程地區
+              </label>
+
+              <select id="area">
+
+                <option value="">
+                  請選擇
+                </option>
+
+                <option>苗栗</option>
+
+                <option>頭份</option>
+
+                <option>竹南</option>
+
+                <option>後龍</option>
+
+                <option>其他</option>
+
+              </select>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="form-group">
+
+            <label>
+              工程類型
+            </label>
+
+            <select id="projectType">
+
+              <option value="">
+                請選擇
+              </option>
+
+              <option>
+                住宅修繕
+              </option>
+
+              <option>
+                新建案泥作
+              </option>
+
+              <option>
+                建商工程配合
+              </option>
+
+              <option>
+                其他泥作工程
+              </option>
+
+            </select>
+
+          </div>
+
+
+
+          <div class="form-group">
+
+            <label>
+              預計施工時間
+            </label>
+
+            <input
+              type="text"
+              id="time"
+              placeholder="例如：近期、下個月、尚未確定"
+            >
+
+          </div>
+
+
+
+          <div class="form-group">
+
+            <label>
+              工程需求
+            </label>
+
+            <textarea
+              id="need"
+              placeholder="請簡單描述您的工程需求..."
+            ></textarea>
+
+          </div>
+
+
+
+          <div class="consent">
+
+            <label>
+
+              <input
+                type="checkbox"
+                id="consent"
+                required
+              >
+
+              我同意勇倉工程行使用以上資料，
+              就本次工程需求與我聯絡。
+
+            </label>
+
+          </div>
+
+
+
+          <button
+            type="submit"
+            class="submit-btn"
+          >
+
+            送出工程需求
+
+          </button>
+
+
+          <div id="formMessage"></div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================
+     Footer
+========================= -->
+
+<footer>
+
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+
+      勇倉工程行
+
+      <small>
+        YONG CANG CONSTRUCTION
+      </small>
+
+    </div>
+
+
+    <div class="footer-info">
+
+      鄭凱元｜0980-546719<br>
+
+      LINE：0980546719<br>
+
+      苗栗市文聖里橫車路352巷97弄<br>
+
+      統編：26850548
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+<script>
+
+
+/* =========================
+   服務項目
+========================= */
+
+google.script.run
+
+  .withSuccessHandler(function(data) {
+
+    const grid =
+      document.getElementById('serviceGrid');
+
+    if (!data.length) {
+
+      grid.innerHTML =
+        '<p>服務項目即將更新。</p>';
+
+      return;
+
+    }
+
+    data.forEach(function(item, index) {
+
+      const icons = [
+        '⌂',
+        '▦',
+        '◆',
+        '▤',
+        '△'
+      ];
+
+      grid.innerHTML += `
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            ${icons[index] || '◆'}
+          </div>
+
+          <h3>
+            ${item.name}
+          </h3>
+
+          <p>
+            ${item.description}
+          </p>
+
+        </div>
+
+      `;
+
+    });
+
+  })
+
+  .getServices();
+
+
+
+/* =========================
+   工程實績
+========================= */
+
+google.script.run
+
+  .withSuccessHandler(function(data) {
+
+    const grid =
+      document.getElementById('projectGrid');
+
+    if (!data.length) {
+
+      grid.innerHTML = `
+
+        <div style="
+          grid-column:1/-1;
+          text-align:center;
+          padding:60px 20px;
+          color:#777;
+        ">
+
+          <div style="font-size:50px;">
+            🏗️
+          </div>
+
+          <h3>
+            工程案例即將更新
+          </h3>
+
+          <p>
+            我們正在整理勇倉工程行的實際施工案例。
+          </p>
+
+        </div>
+
+      `;
+
+      return;
+
+    }
+
+
+    data.forEach(function(item) {
+
+      let imageHTML = '';
+
+      if (item.image) {
+
+        imageHTML = `
+          <img
+            src="${item.image}"
+            alt="${item.name}"
+          >
+        `;
+
+      } else {
+
+        imageHTML = `
+          <div>
+            工程照片
+          </div>
+        `;
+
+      }
+
+
+      grid.innerHTML += `
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            ${imageHTML}
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-meta">
+
+              ${item.type}
+              ${item.area ? '｜' + item.area : ''}
+
+            </div>
+
+            <h3>
+              ${item.name}
+            </h3>
+
+            <p>
+              ${item.description}
+            </p>
+
+          </div>
+
+        </article>
+
+      `;
+
+    });
+
+  })
+
+  .getProjects();
+
+
+
+/* =========================
+   施工流程
+========================= */
+
+google.script.run
+
+  .withSuccessHandler(function(data) {
+
+    const grid =
+      document.getElementById('processGrid');
+
+    data.forEach(function(item) {
+
+      grid.innerHTML += `
+
+        <div class="process-card">
+
+          <div class="process-number">
+
+            ${item.order}
+
+          </div>
+
+          <h3>
+            ${item.name}
+          </h3>
+
+          <p>
+            ${item.description}
+          </p>
+
+        </div>
+
+      `;
+
+    });
+
+  })
+
+  .getProcess();
+
+
+
+/* =========================
+   客戶需求表單
+========================= */
+
+document
+  .getElementById('inquiryForm')
+  .addEventListener('submit', function(e) {
+
+    e.preventDefault();
+
+
+    const button =
+      document.querySelector('.submit-btn');
+
+    const message =
+      document.getElementById('formMessage');
+
+
+    button.disabled = true;
+
+    button.textContent =
+      '送出中...';
+
+
+    const data = {
+
+      name:
+        document.getElementById('name').value,
+
+      phone:
+        document.getElementById('phone').value,
+
+      company:
+        document.getElementById('company').value,
+
+      line:
+        document.getElementById('line').value,
+
+      customerType:
+        document.getElementById('customerType').value,
+
+      area:
+        document.getElementById('area').value,
+
+      projectType:
+        document.getElementById('projectType').value,
+
+      time:
+        document.getElementById('time').value,
+
+      need:
+        document.getElementById('need').value,
+
+      consent:
+        document.getElementById('consent').checked
+
+    };
+
+
+    google.script.run
+
+      .withSuccessHandler(function(result) {
+
+        message.style.color = '#4b7d45';
+
+        message.textContent =
+          result.message;
+
+        document
+          .getElementById('inquiryForm')
+          .reset();
+
+        button.disabled = false;
+
+        button.textContent =
+          '送出工程需求';
+
+      })
+
+      .withFailureHandler(function(error) {
+
+        message.style.color = '#b33';
+
+        message.textContent =
+          '送出失敗：' + error.message;
+
+        button.disabled = false;
+
+        button.textContent =
+          '送出工程需求';
+
+      })
+
+      .submitInquiry(data);
+
+  });
+/* =========================
+   手機選單
+========================= */
+
+const menuToggle =
+  document.getElementById('menuToggle');
+
+const nav =
+  document.querySelector('.nav');
+
+
+menuToggle.addEventListener('click', function() {
+
+  nav.classList.toggle('mobile-open');
+
+});
+</script>
+
+
+</body>
+
+</html>
